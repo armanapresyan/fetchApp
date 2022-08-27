@@ -1,0 +1,39 @@
+body {
+    background-color: #1f0070;
+  }
+  
+  #root {
+    height: 320px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 200px auto;
+  }
+  
+  .div {
+    display: inline-block;
+    font-size: 19px;
+  }
+  
+  #input,
+  #from,
+  #to {
+    padding: 12px;
+    border-radius: 5px;
+  }
+  
+  .div img {
+    width: 25px;
+    height: 19px;
+  }
+  
+  #convert {
+    padding: 12px;
+    border-radius: 15px;
+    background-color: #1f0070;
+    color: white;
+  }
